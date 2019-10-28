@@ -2,11 +2,11 @@ Powershell Module with one new cmdlet
 
  
 
-New-SPOListItem
+<h1>New-SPOListItem</h1>
 
  
 
-Parameters
+<h3>Parameters</h3>
 
 The cmdlet is using the following parameters:
 
@@ -35,31 +35,23 @@ Optional. If you want to add some additional attribute to the item at the moment
 
  
 
-Examples
+<h3>Examples</h3>
 
 
+  <img src="../Create new list item using Powershell/Newlistitem.PNG" width="850">
 
- 
 
- 
-
- 
-
- 
-
- 
-
-Requirements
+<h3>Requirements</h3>
 
 The following libraries (SharePoint Online SDK) are required. If those libraries are in different location on your computer, please edit the .psm1 file!
 
  
 
-PowerShell
+```powershell
 # Paths to SDK. Please verify location on your computer.  
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"   
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"  
- 
+``` 
  
 
  
